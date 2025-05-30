@@ -3,25 +3,17 @@
         <h1 class="section-title">School projects:</h1>
 
         <div class="pdf-links">
-            <a href="/externe bestanden/Alle wpl1 opdrachten.pdf" target="_blank">
-                <i class="fa-regular fa-file-pdf"></i> Wpl1 opdrachten
-            </a>
-            <a href="/externe bestanden/Eindreflectie.pdf" target="_blank">
-                <i class="fa-regular fa-file-pdf"></i> Wpl1 Eindreflectie
-            </a>
             <a href="/externe bestanden/WPL2 Case.pdf" target="_blank">
                 <i class="fa-regular fa-file-pdf"></i> Wpl2 Case
             </a>
-            <a href="/externe bestanden/Individuele Eindreflectie WPL2.pdf" target="_blank">
-                <i class="fa-regular fa-file-pdf"></i> Wpl2 Eindreflectie
-            </a>
+            <router-link to="/wpl" class="link text-info">Wpl opdrachten</router-link>
         </div>
 
         <div class="container mt-4">
             <div class="row">
                 <div class="col-lg-6 mb-4">
                     <p class="text">
-                        For my end project in middle school, I made a website for a customer. Due to unfortunate
+                        For my end project in school, I made a website for a customer. Due to unfortunate
                         circumstances, this
                         website never went online. However, the website is functional in both the frontend and
                         backend.<br><br>
@@ -48,12 +40,12 @@
             <div class="row">
                 <div class="col-lg-6 mb-4">
                     <p class="text">
-                        In middle school I made some smaller applications with Java. Such as making an arraylist and
+                        In school I made some smaller applications with Java. Such as making an arraylist and
                         keeping the
                         data, even if the application closes, or an application that can track the user's location and
                         give
                         time stamps on when the data was collected.<br><br>
-                        I don’t have a lot of experience in Java yet but I’d like to learn more about it when the time
+                        I don't have a lot of experience in Java yet but I'd like to learn more about it when the time
                         is right.
                     </p>
                 </div>
@@ -66,9 +58,39 @@
             </div>
         </div>
 
-        <hr />
+        <hr>
 
         <!-- Section 3 -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <p class="text">
+                        In college I also made a website for a customer. This time it was a website for a job vacency in
+                        the ICT sector (specifically for students).
+                        The website is fully functional and has a working login system where u can change passwords,
+                        etc... . The website is made with Vue, SCSS, Bootstrap, JavaScript and C#.
+                        <br><br>
+                        The Project lasted for 14 weeks and I worked on it with a team of 7 people. 3 backend
+                        developers, 3 designers and 1 frontend developer (me).
+                        Our goal was to create a website that would be attractive to students and easy to use, while
+                        also providing all the necessary information about the job vacancy.
+                        <br><br>
+                        It was a bigger project than the previous ones, but I learned a lot from it. I learned how to
+                        work with a team, how to communicate effectively, and how to manage my time.
+                    </p>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <p>Homepage</p>
+                    <img src="/img/Victory-home.png" alt="Homepage" class="img-fluid mb-4" />
+                    <p>More page</p>
+                    <img src="/img/Victory-More.png" alt="More page" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- Section 4 -->
         <h1 class="section-title">Non-school projects:</h1>
 
         <div class="container mt-4 mb-5">

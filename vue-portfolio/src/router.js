@@ -4,6 +4,7 @@ import AboutMe from '@/views/AboutMe.vue';
 import Projects from '@/views/Projects.vue';
 import Contact from '@/views/ContactMe.vue';
 import Privacy from '@/views/Privacy.vue';
+import Wpl from '@/views/Wpl.vue';
 import NotFound from "@/views/NotFound.vue";
 
 
@@ -12,7 +13,8 @@ const routes = [
     { path: '/about', component: AboutMe },
     { path: '/projects', component: Projects },
     { path: '/contact', component: Contact },
-    {path: '/privacy', component: Privacy},
+    { path: '/privacy', component: Privacy},
+    { path: '/wpl', component: Wpl},
     { path: "/:notFound(.*)", name: "NotFound", component: NotFound }
   ];
 

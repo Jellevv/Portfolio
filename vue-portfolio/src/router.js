@@ -19,7 +19,7 @@ const routes = [
   ];
 
 const router = createRouter({
-    history: createWebHistory('/Portfolio/'),
+    history: createWebHistory('/portfolio/'),
     routes,
     linkActiveClass: 'active',
     scrollBehavior(to, from, savedPosition) {
